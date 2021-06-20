@@ -105,7 +105,7 @@ body, html {
 
 body {
   margin: 0;
-  background-color: lightblue;
+  background-color: rgb(12, 183, 240);
   position: relative;
   perspective: 800px;
   overflow: hidden;
@@ -130,7 +130,7 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: #EDEDBF;
+  background-color: wheat;
   border-radius: 5px;
   box-shadow: inset 0 0 30px -5px #a87e50, 0 0 20px -5px;
 }
@@ -185,7 +185,7 @@ body {
 .envelope .back .flap:before {
   content: "";
   position: absolute;
-  background-color: #EDEDBF;
+  background-color: wheat;
   box-shadow: inset 0 0 30px -7px #a87e50;
 }
 .envelope .back .top-flap:before, .envelope .back .bottom-flap:before {
@@ -246,7 +246,7 @@ body {
   left: 10px;
   width: 530px;
   height: 346.66667px;
-  background-color: #F2F2CF;
+  background-color: rgb(175, 206, 175);
   border-radius: 5px;
   padding: 0 4%;
   box-sizing: border-box;
@@ -322,4 +322,10 @@ body {
 }
 .envelope.open .letter {
   animation: letter-out 1s 2s forwards;
+}
+
+#video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
